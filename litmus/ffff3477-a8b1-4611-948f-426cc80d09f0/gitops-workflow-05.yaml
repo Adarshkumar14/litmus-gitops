@@ -5,6 +5,8 @@ metadata:
   labels:
     cluster_id: bf512247-e051-4826-a220-22887c70dc5c
     subject: gitops-05_litmus
+    workflow_id: 39534bb6-289b-40b3-b812-808fc4ff0002
+    workflows.argoproj.io/controller-instanceid: bf512247-e051-4826-a220-22887c70dc5c
   name: gitops-workflow-05
   namespace: litmus
 spec:
@@ -259,6 +261,5 @@ spec:
     name: revert-chaos
     outputs: {}
 status:
-
   finishedAt: null
   startedAt: null
