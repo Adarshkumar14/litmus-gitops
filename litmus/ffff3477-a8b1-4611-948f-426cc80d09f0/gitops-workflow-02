@@ -3,7 +3,7 @@ kind: Workflow
 metadata:
   labels:
     subject: gitops-workflow-02_litmus
-  name: gitops-workflow-02
+  name: gitops-workflow-02-1234
   namespace: litmus
 spec:
   arguments:
