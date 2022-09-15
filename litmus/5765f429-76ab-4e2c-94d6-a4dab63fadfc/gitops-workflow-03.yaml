@@ -5,7 +5,6 @@ metadata:
   labels:
     cluster_id: 38683e00-72ae-4281-b61e-5fa8433aa890
     subject: custom_litmus
-    workflow_id: a914f8f4-4542-4088-ab24-70a38c713e3d
     workflows.argoproj.io/controller-instanceid: 38683e00-72ae-4281-b61e-5fa8433aa890
   name: gitops-workflow-03
   namespace: litmus
